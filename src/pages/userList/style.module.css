@@ -1,0 +1,53 @@
+.userListHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  width: 100%;
+
+  & button {
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    height: 50%;
+  }
+}
+
+.userTable {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(5px);
+}
+
+.modalContent {
+  background-color: darkblue;
+  padding: 20px;
+  border-radius: 5px;
+  width: 300px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.addUserForm {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
