@@ -2,8 +2,8 @@ import './App.css'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Home from './pages/Home'
 import Calculator from './pages/Calculator'
-import UserList from './pages/UserList'
 import Todo from './pages/Todo'
+import UserList from './pages/userList/UserList'
 import Nav from './components/Nav'
 
 function App() {
