@@ -20,6 +20,21 @@
 .userTable {
   width: 100%;
   border-collapse: collapse;
+  border: #000 1px solid;
+
+  & th {
+    background-color: #202020;
+    padding: 8px;
+  }
+  & tr {
+    border-bottom: #202020 1px solid;
+    &:nth-child(even) {
+      background-color: #232020;
+    }
+    &:hover {
+      background-color: #3d3b3b;
+    }
+  }
 }
 
 .modal {
@@ -36,9 +51,9 @@
 }
 
 .modalContent {
-  background-color: darkblue;
+  background-color: #333;
   padding: 20px;
-  border-radius: 5px;
+  border-radius: 5%;
   width: 300px;
   color: white;
   display: flex;

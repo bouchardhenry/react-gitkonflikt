@@ -52,9 +52,9 @@ const UserList = () => {
                                 setAddUserModalOpen(false)
                             }}>
                                 <label>Name:</label>
-                                <input type="text" name="name" />
+                                <input type="text" name="name" required/>
                                 <label>Email:</label>
-                                <input type="email" name="email" />
+                                <input type="email" name="email" required/>
                                 <button type="submit">Add User</button>
                                 <button type="button" onClick={() => setAddUserModalOpen(false)}>Cancel</button>
                             </form>
